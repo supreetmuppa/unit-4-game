@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------------------------------------------------
+[Table of contents]
+1. GLOBAL 
+-------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+1. GLOBAL 
+-------------------------------------------------------------------*/
+
+body {
+    background-image: url(/Users/supreetmuppavarapu/Desktop/unit-4-game/assets/images/Episode_VII_-_X_wing_Squadron.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reg_border {
+    border: 1px solid rgba(192, 192, 192, 0.6);
+}
+
+#scoreBoard {
+    opacity: .6;
+}
+
+.fighter:hover {
+    cursor: pointer;
+    border: 1px solid rgba(63, 191, 127, 0.6);
+}
+
+.fighter:active {
+    border: 1px solid rgba(191, 63, 67, 0.6);
+}
+
+.activeFighter {
+    border: 1px solid rgba(63, 191, 127, 0.6);
+}
+
+.activeEnemy {
+    border: 1px solid rgba(191, 63, 67, 0.6);
+}
+
+.images,
+.defeated {
+    border: 1px solid #a8a7a780;
+    background-color: #2c2a28b3;
+    min-height: 307px;
+}
+
+.w-96 {
+    width: 96%;
+}
